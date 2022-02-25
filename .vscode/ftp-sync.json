@@ -1,0 +1,27 @@
+{
+	"remotePath": "/home/ubuntu/workspace/book_store_website",
+	"host": "myec2",
+	"username": "ubuntu",
+	"password": null,
+	"port": 22,
+	"secure": false,
+	"protocol": "sftp",
+	"uploadOnSave": true,
+	"passive": false,
+	"debug": false,
+	"privateKeyPath": "D:/borden_igaming_2021.pem",
+	"passphrase": null,
+	"ignore": [
+		"\\.vscode",
+		"\\.git",
+		"\\.DS_Store",
+		"\\node_modules",
+		"\\package-lock.json",
+		"\\doc"
+	],
+	"generatedFiles": {
+		"uploadOnSave": true,
+		"extensionsToInclude": [],
+		"path": ""
+	}
+}

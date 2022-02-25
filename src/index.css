@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.appbar span{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.appbar{
+  position: relative;
+  background-color: darkgray;
+  height: 150px;
+}
+
+.searchbar{
+  margin-top: 20px;
+}
+
+.searchbar input{
+  margin-right: 10px;
+}
+
+.searchbar select{
+  margin-right: 10px;
+}
+
+.book-table{
+  margin-top: 20px;
+}
+
+.book-table table{
+  width: 100%;
+}
+
+.book-table table,.book-table th,.book-table td {
+  border: 1px solid black;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.login:before {
+  content: "";
+  width: 100%;
+  flex: 1;
+}
+
+.login:after {
+  content: "";
+  width: 100%;
+  flex: 3;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.register:before {
+  content: "";
+  width: 100%;
+  flex: 1;
+}
+
+.register:after {
+  content: "";
+  width: 100%;
+  flex: 3;
 }
